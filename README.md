@@ -6,7 +6,8 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 
 ## **Lesson 1**
 - **Scripts:** [Les1 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Scripts/Les1)  
-- **GIF Demo:** ![Lesson 1 Demo](GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
+- **GIF Demo:** ![Lesson 1 Demo](GifsForReadme/ezgif-29e9fff8cc82e2.gif)
+- Deze les hebben we ervenis van de bade enemy class gebruikt om andere variabelen en functies aan enemies geven
 
 ---
 
