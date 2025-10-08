@@ -6,25 +6,25 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 
 ## **Lesson 1**
 - **Scripts:** [Les1 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Scripts/Les1)  
-- **GIF Demo:** ![Lesson 1 Demo](Prog1.5/GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
+- **GIF Demo:** ![Lesson 1 Demo](GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
 
 ---
 
 ## **Lesson 3**
 - **Scripts:** [Les3 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Les2)  
-- **GIF Demo:** ![Lesson 3 Demo](Prog1.5/GifsForReadme/ezgif-2fc7a8bc0c0917.gif)  
+- **GIF Demo:** ![Lesson 3 Demo](GifsForReadme/ezgif-2fc7a8bc0c0917.gif)  
 
 ---
 
 ## **Lesson 4**
 - **Scripts:** Located in a separate repository (link not provided)  
-- **GIF Demo:** ![Lesson 4 Demo](Prog1.5/GifsForReadme/ezgif-28a1a05a5c693e.gif)  
+- **GIF Demo:** ![Lesson 4 Demo](GifsForReadme/ezgif-28a1a05a5c693e.gif)  
 
 ---
 
 ## **Lesson 5**
 - **Scripts:** [Les5 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Les5)  
-- **GIF Demo:** ![Lesson 5 Demo](Prog1.5/GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
+- **GIF Demo:** ![Lesson 5 Demo](GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
 
 ---
 
