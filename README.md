@@ -17,7 +17,7 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 - Deze les hebben we ervenis van de bade enemy class gebruikt om andere variabelen en functies aan enemies geven
 
 ## **Lesson 3**
-- **GIF Demo:** ![Lesson 3 Demo](GifsForReadme/Screenshot2025-10-17140250.png)  
+- **GIF Demo:** ![Lesson 3 Demo](Screenshot%202025-10-17%20140250.png)  
 
 ---
 
