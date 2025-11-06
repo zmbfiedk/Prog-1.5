@@ -54,6 +54,44 @@ Each lesson demonstrates key programming concepts such as **DRY (Don’t Repeat 
 
 ---
 
+## **Lesson 7**
+
+---
+title: Class Diagram - Tower Defense Enemies
+---
+
+```mermaid
+classDiagram
+    %% --- BASE CLASS ---
+    class EnemyParent {
+        + health : float
+        + moveSpeed : float
+        - direction : Vector3
+        + Update()
+        # Move()
+        + TakeDamage(damage : float)
+        # Die()
+        - OnTriggerEnter(other : Collider)
+    }
+
+    %% --- SUBCLASS: ELF ---
+    class Elf {
+        - rend : Renderer
+        + Start()
+        - ToggleVisibility() : IEnumerator
+    }
+
+    %% --- SUBCLASS: BRUTE ---
+    class Brute {
+        + Start()
+    }
+
+    %% --- RELATIONSHIPS ---
+    Elf --|> EnemyParent : inherits
+    Brute --|> EnemyParent : inherits
+
+
+---
 ### Summary
 This repository highlights progress made throughout the **Prog-1.5** course — from basic scripting concepts to object-oriented programming principles and project dependency management.  
 Each lesson builds upon the previous one, showing a steady improvement in coding structure, reusability, and project organization.
