@@ -60,6 +60,10 @@ Each lesson demonstrates key programming concepts such as **DRY (Don’t Repeat 
 title: Class Diagram - Tower Defense Enemies
 ---
 
+---
+title: Class Diagram - Tower Defense Enemies
+---
+
 ```mermaid
 classDiagram
     %% --- BASE CLASS ---
@@ -89,6 +93,7 @@ classDiagram
     %% --- RELATIONSHIPS ---
     Elf --|> EnemyParent : inherits
     Brute --|> EnemyParent : inherits
+```
 
 
 ---
