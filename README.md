@@ -5,6 +5,7 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 ---
 
 ## **Lesson 1**
+-Opdracht : 1,2,3
 - **Scripts:** [Les1 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Scripts/Les1)  
 - **GIF Demo:** ![Lesson 1 Demo](GifsForReadme/ezgif-2d29cf09b54518.gif)
 - Deze les hebben we ervenis van de bade enemy class gebruikt om andere variabelen en functies aan enemies geven
@@ -17,7 +18,8 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 - Deze les hebben we ervenis van de bade enemy class gebruikt om andere variabelen en functies aan enemies geven
 
 ## **Lesson 3**
-- **GIF Demo:** ![Lesson 3 Demo](GifsForReadme/Screenshot2025-10-17140250.png)  
+- **GIF Demo:** ![Lesson 3 Demo](GifsForReadme/Screenshot2025-10-17140250.png)
+- **Issues Van TD** https://github.com/zmbfiedk/Tower-Defense/issues 
 
 ---
 
@@ -35,18 +37,10 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 
 ## **Space48 Project**
 - **Repository:** [Space48](https://github.com/zmbfiedk/Space48)  
-- **Focus:** Demonstrates DRY (Don’t Repeat Yourself) and SRP (Single Responsibility Principle) in Unity projects.  
+- **Focus:** Demonstrates DRY (Don’t Repeat Yourself) and SRP (Single Responsibility Principle) in Unity projects.
+
 
 ---
 
-### **Usage**
-1. Open the project in Unity 2021 or higher.
-2. Navigate to the lesson folder you want to explore.
-3. Open the scene and play to see the demo.
-4. Review scripts to understand the concepts demonstrated.  
-
----
-
-### **Notes**
-- GIFs are located in `Prog1.5/GifsForReadme/`.
-- Some lesson scripts may reference scenes or assets not included; ensure you import all required assets when testing.
+##**Lesson 6**##
+- **TowerDefense**[Repo](https://github.com/zmbfiedk/Tower-Defense)
