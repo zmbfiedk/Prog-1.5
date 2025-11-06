@@ -95,7 +95,9 @@ classDiagram
 
 ## **Lesson 8**
 
--Scripts waarbij ik geen Magic numbers gebruikt maar wel Enums[Script](https://github.com/zmbfiedk/Tower-Defense/blob/Dev/Assets/Scripts/Towers/Tower%20Behaiviour/TowerAttackController.cs)
+-This lesson emphasized writing scripts without magic numbers, utilizing Enums to improve readability and maintainability.
+
+-[Script](https://github.com/zmbfiedk/Tower-Defense/blob/Dev/Assets/Scripts/Towers/Tower%20Behaiviour/TowerAttackController.cs)
 
 ---
 ### Summary
