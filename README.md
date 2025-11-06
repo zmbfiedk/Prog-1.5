@@ -23,7 +23,7 @@ Each lesson demonstrates key programming concepts such as **DRY (Don’t Repeat 
 ---
 
 ## **Lesson 3**
-**Demo:** ![Lesson 3 Demo](GifsForReadme/Screenshot2025-10-17140250.png)  
+**Demo:** ![Lesson 3 Demo](GifsForReadme/Image1.png)  
 **Tower Defense Issues:** [Tower Defense Repo Issues](https://github.com/zmbfiedk/Tower-Defense/issues)  
 
 *This lesson focused on identifying dependencies and debugging issues in our Tower Defense project.*
