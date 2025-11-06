@@ -60,10 +60,6 @@ Each lesson demonstrates key programming concepts such as **DRY (Don’t Repeat 
 title: Class Diagram - Tower Defense Enemies
 ---
 
----
-title: Class Diagram - Tower Defense Enemies
----
-
 ```mermaid
 classDiagram
     %% --- BASE CLASS ---
@@ -94,7 +90,12 @@ classDiagram
     Elf --|> EnemyParent : inherits
     Brute --|> EnemyParent : inherits
 ```
+[TowerDefense ClassDiagram Op Readme](https://github.com/zmbfiedk/Tower-Defense/tree/main)
 
+
+## **Lesson 8**
+
+-Scripts waarbij ik geen Magic numbers gebruikt maar wel Enums[Script](https://github.com/zmbfiedk/Tower-Defense/blob/Dev/Assets/Scripts/Towers/Tower%20Behaiviour/TowerAttackController.cs)
 
 ---
 ### Summary
