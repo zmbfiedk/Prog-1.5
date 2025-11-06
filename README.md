@@ -29,18 +29,18 @@ This repository contains Unity projects and scripts for the Prog-1.5 course, as 
 
 ---
 
-## **Lesson 5**
+## **Lesson 5** 
 - **Scripts:** [Les5 Scripts](https://github.com/zmbfiedk/Prog-1.5/tree/main/Assets/Les5)  
 - **GIF Demo:** ![Lesson 5 Demo](GifsForReadme/ezgif-29e9fff8cc82e2.gif)  
 
 ---
 
-## **Space48 Project**
+## **Space48 Project** 
 - **Repository:** [Space48](https://github.com/zmbfiedk/Space48)  
 - **Focus:** Demonstrates DRY (Don’t Repeat Yourself) and SRP (Single Responsibility Principle) in Unity projects.
 
 
 ---
 
-##**Lesson 6**##
+##**Lesson 6**
 - **TowerDefense**[Repo](https://github.com/zmbfiedk/Tower-Defense)
