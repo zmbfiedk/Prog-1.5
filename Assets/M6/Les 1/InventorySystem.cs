@@ -96,13 +96,13 @@ public class InventorySystem : MonoBehaviour
             if (item is KeycardItem) invKeycards++;
         }
 
-        Debug.Log("\nitems in de wereld:\n" +
-                  $"medipacks : {_worldMedipacks}\n" +
-                  $"guns : {_worldGuns}\n" +
-                  $"keycards : {_worldKeycards}\n\n" +
-                  "Items in inventory:\n" +
-                  $"medipacks : {invMedipacks}\n" +
-                  $"guns : {invGuns}\n" +
-                  $"keycards : {invKeycards}\n");
+        Debug.Log("nitems in de wereld:");
+        Debug.Log($"medipacks : {_worldMedipacks}");
+        Debug.Log($"guns : {_worldGuns}");
+        Debug.Log($"keycards : {_worldKeycards}");
+        Debug.Log("Items in inventory:");
+        Debug.Log($"medipacks : {invMedipacks}");
+        Debug.Log($"guns : {invGuns}");
+        Debug.Log($"keycards : {invKeycards}");
     }
 }
