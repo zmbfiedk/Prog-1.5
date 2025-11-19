@@ -105,77 +105,61 @@ This repository highlights progress made throughout the **Prog-1.5** course — 
 Each lesson builds upon the previous one, showing a steady improvement in coding structure, reusability, and project organization.
 
 
-## **M6 Les 1**
-#  Inventory System – Code Conventions Assignment
+## **M6 Lesson 1**
+# Inventory System – Code Conventions Assignment
 
-##  Opdrachtomschrijving
-Voor deze opdracht heb ik een **Inventory System** gemaakt volgens de Unity **code conventions**, zoals behandeld in Les 1.  
-Het systeem gebruikt een **baseclass, inheritance, een List, nette structuur, correcte naamgeving, serializefields**, en duidelijke Engelstalige comments.
+## Assignment Description
+For this lesson, I created an **Inventory System** following Unity’s code conventions.  
+The system uses a **base class, inheritance, a List, clean structure, correct naming rules, serializefields**, and clear English comments.
 
-Het Inventory System werkt volledig in de **Console**, waarbij ik items kan oppakken of droppen met toetsen op het toetsenbord.
+The Inventory System works fully in the **Console**, where the player can pick up or drop items using keyboard inputs.
 
 ---
 
-##  Functionele Eisen
-Het systeem bevat:
+## Features
 
-###  InventoryItem (baseclass)
-Shared properties voor alle items.
+### InventoryItem (base class)
+Shared data for all item types.
 
-###  Drie soorten items (inheritance)
+### Three item types (inheritance)
 - WeaponItem  
 - MedipackItem  
 - KeycardItem  
 
-###  InventorySystem
-Beheer van:
-- Items toevoegen  
-- Items verwijderen  
-- Console weergave  
-- Een `List<InventoryItem>`  
+### InventorySystem
+Handles:
+- Adding items  
+- Removing items  
+- Console output  
+- A `List<InventoryItem>`  
 
-###  Input besturing
-- **G** → Gun oppakken  
-- **M** → Medipack oppakken  
-- **K** → Keycard oppakken  
-- **1** → Gun droppen  
-- **2** → Medipack droppen  
-- **3** → Keycard droppen  
-
----
-
-##  Code Structuur
-De code volgt:
-
-- PascalCase voor classes en public methods  
-- camelCase + `_underscore` voor private fields  
-- Scripts opgesplitst in:  
-  - Fields  
-  - Properties  
-  - MonoBehaviour methods  
-  - Public methods  
-  - Private/protected methods  
-- Engelstalige comments en summaries  
-- Gebruik van `[SerializeField]` waar nodig voor Inspector-visible fields  
+### Input controls
+- **G** → Pick up gun  
+- **M** → Pick up medipack  
+- **K** → Pick up keycard  
+- **1** → Drop gun  
+- **2** → Drop medipack  
+- **3** → Drop keycard  
 
 ---
 
-##  Scripts
-Hieronder de links naar alle scripts:
-
-- `InventoryItem.cs`  
-- `WeaponItem.cs`  
-- `MedipackItem.cs`  
-- `KeycardItem.cs`  
-- `InventorySystem.cs`  
-- `InventoryInput.cs`  
-
--[M6-Les-1-Scripts](https://github.com/zmbfiedk/Prog_Leerjaar-2/tree/main/Assets/M6/Les%201)
+## Code Structure
+The system follows Unity conventions:
+- PascalCase for classes and public methods  
+- camelCase with `_underscore` for private fields  
+- Script layout: fields → properties → MonoBehaviours → public methods → private methods  
+- English comments and summaries  
+- `[SerializeField]` for Inspector values  
 
 ---
 
-##  Gif – Werkend Systeem
+## Scripts
+Link to all related scripts:
 
+ **[M6-Les-1-Scripts](https://github.com/zmbfiedk/Prog_Leerjaar-2/tree/main/Assets/M6/Les%201)**
+
+---
+
+## Demo GIF
 ![Gif](GifsForReadme/Gif-M6-L1.gif)
-
 

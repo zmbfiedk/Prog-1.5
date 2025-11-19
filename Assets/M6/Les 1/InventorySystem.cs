@@ -1,59 +1,108 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// Stores and manages a collection of inventory items.
-/// </summary>
 public class InventorySystem : MonoBehaviour
 {
-    // 1. Fields
-    private List<InventoryItem> _items = new List<InventoryItem>();
+    // WORLD ITEM COUNTS
+    [SerializeField] private int _worldMedipacks = 4;
+    [SerializeField] private int _worldGuns = 2;
+    [SerializeField] private int _worldKeycards = 1;
 
-    // 2. Public Methods
-    public void AddItem(InventoryItem item)
+    // PLAYER INVENTORY ITEMS
+    private List<InventoryItem> _inventory = new List<InventoryItem>();
+
+    // -------- PICKUP --------
+    public void PickupGun()
     {
-        _items.Add(item);
-        Debug.Log($"Picked up a {item.ItemName}!");
-    }
-
-    public void RemoveItem<T>() where T : InventoryItem
-    {
-        InventoryItem itemToRemove = _items.Find(item => item is T);
-
-        if (itemToRemove != null)
+        if (_worldGuns > 0)
         {
-            _items.Remove(itemToRemove);
-            Debug.Log($"Dropped a {itemToRemove.ItemName}!");
-        }
-        else
-        {
-            Debug.Log($"You don't have a {typeof(T).Name} to drop!");
+            _worldGuns--;
+            _inventory.Add(new WeaponItem());
+            Debug.Log("Picked up a gun!");
+            PrintInventories();
         }
     }
 
-    public void PrintInventory()
+    public void PickupMedipack()
     {
-        Debug.Log("=== INVENTORY ===");
-
-        if (_items.Count == 0)
+        if (_worldMedipacks > 0)
         {
-            Debug.Log("Inventory is empty.");
-            return;
+            _worldMedipacks--;
+            _inventory.Add(new MedipackItem());
+            Debug.Log("Picked up a medipack!");
+            PrintInventories();
+        }
+    }
+
+    public void PickupKeycard()
+    {
+        if (_worldKeycards > 0)
+        {
+            _worldKeycards--;
+            _inventory.Add(new KeycardItem());
+            Debug.Log("Picked up a keycard!");
+            PrintInventories();
+        }
+    }
+
+    // -------- DROP --------
+    public void DropGun()
+    {
+        InventoryItem gun = _inventory.Find(item => item is WeaponItem);
+        if (gun != null)
+        {
+            _inventory.Remove(gun);
+            _worldGuns++;
+            Debug.Log("Dropped a gun!");
+            PrintInventories();
+        }
+    }
+
+    public void DropMedipack()
+    {
+        InventoryItem medipack = _inventory.Find(item => item is MedipackItem);
+        if (medipack != null)
+        {
+            _inventory.Remove(medipack);
+            _worldMedipacks++;
+            Debug.Log("Dropped a medipack!");
+            PrintInventories();
+        }
+    }
+
+    public void DropKeycard()
+    {
+        InventoryItem keycard = _inventory.Find(item => item is KeycardItem);
+        if (keycard != null)
+        {
+            _inventory.Remove(keycard);
+            _worldKeycards++;
+            Debug.Log("Dropped a keycard!");
+            PrintInventories();
+        }
+    }
+
+    // -------- PRINTING --------
+    private void PrintInventories()
+    {
+        int invMedipacks = 0;
+        int invGuns = 0;
+        int invKeycards = 0;
+
+        foreach (InventoryItem item in _inventory)
+        {
+            if (item is MedipackItem) invMedipacks++;
+            if (item is WeaponItem) invGuns++;
+            if (item is KeycardItem) invKeycards++;
         }
 
-        Dictionary<string, int> counts = new Dictionary<string, int>();
-
-        foreach (InventoryItem item in _items)
-        {
-            if (!counts.ContainsKey(item.ItemName))
-                counts[item.ItemName] = 0;
-
-            counts[item.ItemName]++;
-        }
-
-        foreach (var entry in counts)
-        {
-            Debug.Log($"{entry.Key}: {entry.Value}");
-        }
+        Debug.Log("\nitems in de wereld:\n" +
+                  $"medipacks : {_worldMedipacks}\n" +
+                  $"guns : {_worldGuns}\n" +
+                  $"keycards : {_worldKeycards}\n\n" +
+                  "Items in inventory:\n" +
+                  $"medipacks : {invMedipacks}\n" +
+                  $"guns : {invGuns}\n" +
+                  $"keycards : {invKeycards}\n");
     }
 }
