@@ -170,12 +170,12 @@ Hieronder de links naar alle scripts:
 - `InventorySystem.cs`  
 - `InventoryInput.cs`  
 
-*(Vul hier je GitHub links in)*
+-[M6-Les-1-Scripts](https://github.com/zmbfiedk/Prog_Leerjaar-2/tree/main/Assets/M6/Les%201)
 
 ---
 
 ##  Gif – Werkend Systeem
 
--[Gif](GifsForReadme/Gif-M6-L1.gif)
+![Gif](GifsForReadme/Gif-M6-L1.gif)
 
 
