@@ -103,3 +103,79 @@ classDiagram
 ### Summary
 This repository highlights progress made throughout the **Prog-1.5** course — from basic scripting concepts to object-oriented programming principles and project dependency management.  
 Each lesson builds upon the previous one, showing a steady improvement in coding structure, reusability, and project organization.
+
+
+## **M6 Les 1**
+#  Inventory System – Code Conventions Assignment
+
+##  Opdrachtomschrijving
+Voor deze opdracht heb ik een **Inventory System** gemaakt volgens de Unity **code conventions**, zoals behandeld in Les 1.  
+Het systeem gebruikt een **baseclass, inheritance, een List, nette structuur, correcte naamgeving, serializefields**, en duidelijke Engelstalige comments.
+
+Het Inventory System werkt volledig in de **Console**, waarbij ik items kan oppakken of droppen met toetsen op het toetsenbord.
+
+---
+
+##  Functionele Eisen
+Het systeem bevat:
+
+###  InventoryItem (baseclass)
+Shared properties voor alle items.
+
+###  Drie soorten items (inheritance)
+- WeaponItem  
+- MedipackItem  
+- KeycardItem  
+
+###  InventorySystem
+Beheer van:
+- Items toevoegen  
+- Items verwijderen  
+- Console weergave  
+- Een `List<InventoryItem>`  
+
+###  Input besturing
+- **G** → Gun oppakken  
+- **M** → Medipack oppakken  
+- **K** → Keycard oppakken  
+- **1** → Gun droppen  
+- **2** → Medipack droppen  
+- **3** → Keycard droppen  
+
+---
+
+##  Code Structuur
+De code volgt:
+
+- PascalCase voor classes en public methods  
+- camelCase + `_underscore` voor private fields  
+- Scripts opgesplitst in:  
+  - Fields  
+  - Properties  
+  - MonoBehaviour methods  
+  - Public methods  
+  - Private/protected methods  
+- Engelstalige comments en summaries  
+- Gebruik van `[SerializeField]` waar nodig voor Inspector-visible fields  
+
+---
+
+##  Scripts
+Hieronder de links naar alle scripts:
+
+- `InventoryItem.cs`  
+- `WeaponItem.cs`  
+- `MedipackItem.cs`  
+- `KeycardItem.cs`  
+- `InventorySystem.cs`  
+- `InventoryInput.cs`  
+
+*(Vul hier je GitHub links in)*
+
+---
+
+##  Gif – Werkend Systeem
+
+-[Gif](GifsForReadme/Gif-M6-L1.gif)
+
+
